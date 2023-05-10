@@ -15,52 +15,59 @@
   <body>
    
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid ">
-            <i class="fa-brands fa-instagram"></i>
-            <a class="navbar-brand" href="#">Instagram</a>
-                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                 <span class="navbar-toggler-icon"></span>
-                </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <!-- Button trigger modal -->
+       
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
 
+                <div class="container-fluid">
+                  <span class="navbar-brand mb-0 h1">Instagram</span>
+                </div>       
+         <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                   Create a new post
                 </button>
-  
-                    <!-- Modal -->
                  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                       <div class="modal-dialog">
                          <div class="modal-content">
                          <div class="modal-header">
-                           <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                           <h1 class="modal-title fs-5" id="staticBackdropLabel">Create a new post</h1>
                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                           </div>
-                      <div class="modal-body">
-                            ...
+                      <div class="modal-body">Caption
+                        <div class="card">
+                          <div class="card-body">
+                            Add the caption of your post here
+                          </div>
+   
+                        </div>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-instagram"></i>
                      </div>
                           <div class="modal-footer">
                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                           <button type="button" class="btn btn-primary">Understood</button>
+                           <button type="button" class="btn btn-success">Publish</button>
                          </div>
                      </div>
                      </div>
                  </div>
-            
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <i class="fa-sharp fa-regular fa-gear"></i>
-                  </a>
-                          <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#">Profile</a></li>
-                             <li><a class="dropdown-item" href="#">Accesibility</a></li>
-                             <li><a class="dropdown-item" href="#">Privacy and data</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                              <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
-                         </ul>
-                          </li>
-                         </ul>
+                </div>    
+                <div class="btn-group">
+                  <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">   
+                    <i class="fa-brands fa-instagram"></i>
+                  </button>
+                  <ul class="dropdown-menu dropdown-menu-lg-end">
+                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                    <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                    <li><a class="dropdown-item" href="#">Privacy and data</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
+                  </ul>
+                </div>
+                
               </div>
          </div>
       </nav>
